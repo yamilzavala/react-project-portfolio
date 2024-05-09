@@ -1,5 +1,9 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import proyect1Img from '../assets/project_1.png';
+import proyect2Img from '../assets/project_2.png';
+import proyect3Img from '../assets/project_3.png';
+import proyect4Img from '../assets/project_4.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -32,34 +36,34 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: proyect1Img,
     url: 'https://visionaryvibe.netlify.app',
     github: 'https://github.com/yamilzavala/react-projects-custom-confy-store',
     title: 'project 1',
-    text: 'React project developed with: Hooks & State Management: useState, useEffect, useReducer. Navigation and Routing: React Router. Data Handling: axios and useContext. Styling: Styled components. Payment management: Stripe. Authentication: Auth0.',
+    text: 'React project developed with Hooks, React Router, axios, useContext, Styled components, Stripe, Auth0',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: proyect2Img,
     url: 'https://comfy-store-1985.netlify.app',
-    github: '',
+    github: 'https://github.com/yamilzavala/react-projects-comfy-store',
     title: 'project 2',
-    text: 'Ecommerce ',
+    text: 'React project developed with Hooks, React Router, axios and redux-toolkit',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: '',
-    github: '',
+    img: proyect3Img,
+    url: 'https://back-roads-flex.netlify.app/',
+    github: 'https://github.com/yamilzavala/css-project-back-roads-flexbox',
     title: 'project 3',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Landing page developed in HTML, CSS and Flexbox with Responsive Design',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: '',
-    github: '',
+    img: proyect4Img,
+    url: 'https://tea-station-template.netlify.app/',
+    github: 'https://github.com/yamilzavala/css-project-teaStation',
     title: 'project 4',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Landing Page developed in HTML and CSS with Responsive Design',
   },
 ];
