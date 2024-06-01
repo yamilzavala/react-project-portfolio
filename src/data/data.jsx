@@ -4,6 +4,7 @@ import proyect1Img from '../assets/project_1.png';
 import proyect2Img from '../assets/project_2.png';
 import proyect3Img from '../assets/project_3.png';
 import proyect4Img from '../assets/project_4.png';
+import proyect5Img from '../assets/project_5.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -65,5 +66,13 @@ export const projects = [
     github: 'https://github.com/yamilzavala/css-project-teaStation',
     title: 'project 4',
     text: 'Landing Page developed in HTML and CSS with Responsive Design',
+  },
+  {
+    id: nanoid(),
+    img: proyect5Img,
+    url: 'https://665b6c248484c0943fe44f1c--yamiljosuezavala-portfolio.netlify.app/',
+    github: 'https://github.com/yamilzavala/css-project-portfolio-grid',
+    title: 'project 5',
+    text: 'Landing Page developed in HTML, CSS, Grid with Responsive Design',
   },
 ];
