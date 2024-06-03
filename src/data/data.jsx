@@ -70,7 +70,7 @@ export const projects = [
   {
     id: nanoid(),
     img: proyect5Img,
-    url: 'https://665da4350612ea000881496f--yamiljosuezavala-portfolio.netlify.app/',
+    url: 'https://665daa6d9dc70600089e1981--yamiljosuezavala-portfolio.netlify.app/',
     github: 'https://github.com/yamilzavala/css-project-portfolio-grid',
     title: 'project 5',
     text: 'Landing Page developed in HTML, CSS, Grid with Responsive Design',
